@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { 
+    --app-margin:200px;
+    --height-header : 126px;
+    --text-primary: rgba(0,0,0,0.8);
+    --color-primary:#22c55e;
+}
+.text-primary{
+    color: rgba(0, 0, 0, 0.4);
+}
+.text-shadow {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+body { 
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+   /* overflow: hidden; */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::-webkit-scrollbar{
+    display: none;
+
+}

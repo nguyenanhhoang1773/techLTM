@@ -1,0 +1,11 @@
+.heart:hover  { 
+    .heart-next {
+        display: inline-block;
+    }
+    .heart-prev {
+        display: none;
+    }
+}
+.heart-next {
+    display: none ;
+}
